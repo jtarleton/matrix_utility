@@ -1,0 +1,18 @@
+{
+    "name": "jtarleton/matrix_utility",
+    "description": "Matrix operations",
+    "type": "project",
+    "require": {
+        "symfony/monolog-bundle": "^3.6"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" },
+        "psr-4": {"Jtarleton\\MatrixUtility\\": "src/"}
+    },
+    "authors": [
+        {
+            "name": "James Tarleton",
+            "email": "matrix_utils@mailinator.com"
+        }
+    ]
+}
